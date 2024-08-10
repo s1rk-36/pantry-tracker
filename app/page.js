@@ -100,12 +100,12 @@ export default function Home() {
     <Button variant="contained" onClick={() => {
       handleOpen()
     }}>Add New Item</Button>
-    {/* <TextField 
+    <TextField 
       variant="outlined" 
       placeholder="Search items..." 
       value={searchQ}
       onChange={handleSearch}
-    /> */}
+    />
 
     <Box border="1px solid #333">
       <Box width="800px" height="200px" bgcolor="#8686" display="flex" alignItems="center" justifyContent="center" >
